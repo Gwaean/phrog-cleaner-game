@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro;
+using UnityEngine.UI;
 
 public class CleaningMechanic : MonoBehaviour
 {
@@ -15,8 +15,13 @@ public class CleaningMechanic : MonoBehaviour
     public float progress = 0;
     //-----------------------
 
-    [SerializeField]
-    private TextMeshProUGUI progressText;
+    [SerializeField] Image progressBar;
+
+
+    void Start()
+    {
+        progressBar.fillAmount = progress;
+    }
 
     public void OnClean(InputAction.CallbackContext context)
     {
@@ -39,9 +44,9 @@ public class CleaningMechanic : MonoBehaviour
                 other.gameObject.SetActive(false);
 
                 cleaned++;
-                progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
+                //progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
 
-                progressText.text = progress + "%";
+                progressBar.fillAmount = (float)cleaned / dirtList.Length;
             }
         }
     }

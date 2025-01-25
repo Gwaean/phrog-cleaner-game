@@ -1890,19 +1890,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 728674451756588337, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: audioMixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 4a2e0ed00255d77428692867b0cc0ccc, type: 2}
     - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
       propertyPath: m_returnToButton
       value: 
       objectReference: {fileID: 907129282}
     - target: {fileID: 2212764567995578022, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212764567995578022, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026009084601169584, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3026009084601169584, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026009084601169584, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783498702881236256, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_Value
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783498702881236256, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_MaxValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783498702881236256, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_MinValue
+      value: -80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

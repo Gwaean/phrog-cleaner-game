@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6cf36f51fbb2ffe42901557eb008600a
+labels:
+- Sample
+- Layers
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/02 Dynamic Layers/Dynamic
+    Layers.unity
+  uploadId: 705334

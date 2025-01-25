@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8545b522635585b4391e3132c7918e98
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Code/AssemblyInfo.cs
+  uploadId: 705334

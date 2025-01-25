@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 221ea74eb6b99dc4fac4a607c3e3ca86
+labels:
+- Sample
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/08 Animator Controllers/01
+    Hybrid Character/Humanoid-HybridCharacter.controller
+  uploadId: 705334

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 226a00c925393b0469fa9d6370e38806
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/01 Basic Layers/Basic
+    Layers/LightingData.asset
+  uploadId: 705334

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2bcb364d6058bb14ba1a1c31062a2254
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Code/SampleInput.cs
+  uploadId: 705334

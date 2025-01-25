@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9512c93076c740442a6ec2210bf603cd
+labels:
+- Sample
+- Layers
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/AnimancerHumanoid-Face-Surprise.anim
+  uploadId: 705334

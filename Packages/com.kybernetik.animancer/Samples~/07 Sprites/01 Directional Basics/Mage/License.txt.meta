@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9264a66ce3e45104ebcc240ed2713fba
+labels:
+- CC0
+- Documentation
+- Sample
+- OpenGameArt
+- Saint11
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/01 Directional
+    Basics/Mage/License.txt
+  uploadId: 705334

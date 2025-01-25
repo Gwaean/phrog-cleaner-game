@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 11439c5c278c9b147973d62aefab6b9c
+labels:
+- CC0
+- Documentation
+- Sample
+- Quaternius
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Art/Props/Pistol/License.txt
+  uploadId: 705334

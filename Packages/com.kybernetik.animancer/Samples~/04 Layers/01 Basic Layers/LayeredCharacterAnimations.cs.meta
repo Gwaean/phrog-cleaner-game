@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 37c80f5a4f12ed541a0ae336a09d553f
+labels:
+- Sample
+- Layers
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/01 Basic Layers/LayeredCharacterAnimations.cs
+  uploadId: 705334

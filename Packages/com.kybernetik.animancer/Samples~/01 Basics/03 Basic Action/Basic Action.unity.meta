@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b9ca27f7b8954ec49b4a7c832f4615de
+labels:
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/03 Basic Action/Basic
+    Action.unity
+  uploadId: 705334

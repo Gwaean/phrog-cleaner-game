@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7ef2a73962baf234aaeb9aa496bfbdc1
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/01 Linear Mixers/FloatParameterSlider.cs
+  uploadId: 705334

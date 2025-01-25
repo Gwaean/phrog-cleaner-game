@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 82903a25cd1771f4e93a1cb4e93df364
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/05 Basic Character/BasicCharacterAnimations.cs
+  uploadId: 705334

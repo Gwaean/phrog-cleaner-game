@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9482e3815ac7924eb2abc3ca3a77ead
+labels:
+- AnimationEvent
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/05 Events/01 Golf Events/Golf
+    Events.unity
+  uploadId: 705334

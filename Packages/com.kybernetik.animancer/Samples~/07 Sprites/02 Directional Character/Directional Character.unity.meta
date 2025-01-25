@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 33fe01df9a5454249a5355f9297fc3f0
+labels:
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/02 Directional
+    Character/Directional Character.unity
+  uploadId: 705334

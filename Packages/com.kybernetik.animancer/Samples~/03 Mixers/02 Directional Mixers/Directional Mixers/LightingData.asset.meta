@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ec34042a915faa4ba4aabc0fd65b2c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/02 Directional
+    Mixers/Directional Mixers/LightingData.asset
+  uploadId: 705334

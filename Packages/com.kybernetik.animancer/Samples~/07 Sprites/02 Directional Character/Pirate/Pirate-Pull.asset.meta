@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 066a6e8ef6dd92b4988fb3639dbd0271
+labels:
+- CC0
+- ChasersGaming
+- Sample
+- Pirate
+- Sprite
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/02 Directional
+    Character/Pirate/Pirate-Pull.asset
+  uploadId: 705334

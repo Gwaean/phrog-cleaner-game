@@ -1,7 +1,9 @@
-    using UnityEngine;
-    using UnityEngine.SceneManagement;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class MenuHandler : MonoBehaviour
 {
+
     public void PlayGame()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
@@ -11,4 +13,4 @@ public class MenuHandler : MonoBehaviour
         Debug.Log("Game Closed");
         Application.Quit();
     }
- }
+}

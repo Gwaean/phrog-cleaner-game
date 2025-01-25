@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c783b763d12874147876e070661b66ab
+guid: 202e75fe24e04a648bbde01f5c6d6f78
 timeCreated: 1455688158
 licenseType: Store
 TextureImporter:
@@ -55,10 +55,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/BrowserIcon.png
-  uploadId: 717736

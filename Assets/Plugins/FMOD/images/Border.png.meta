@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 40848578d1961334d820821bec6175a4
+guid: 85f635d1401ad3c45a45f29cd776fb36
 timeCreated: 1455150446
 licenseType: Store
 TextureImporter:
@@ -55,10 +55,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/Border.png
-  uploadId: 717736

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99471facfde9fb84dbe4a81ad570ebce
+guid: 02f5831dd58e60848952f7240090d179
 timeCreated: 1434602090
 licenseType: Store
 TextureImporter:
@@ -53,10 +53,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/SearchIconBlack.png
-  uploadId: 717736

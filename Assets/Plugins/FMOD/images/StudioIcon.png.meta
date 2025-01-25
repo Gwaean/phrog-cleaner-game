@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a4edfa5854cdec34b98b1c55f0562bdd
+guid: 6e1c708743ed7c44bbaa784c49aa46a0
 timeCreated: 1434601223
 licenseType: Store
 TextureImporter:
@@ -53,10 +53,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/StudioIcon.png
-  uploadId: 717736

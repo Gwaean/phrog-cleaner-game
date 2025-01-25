@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b92803770616fc747bc3c40ffaec0a42
+guid: 4391718b762f8714b92b5361903263fb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,10 +90,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/ContinuousParameterIcon.png
-  uploadId: 717736

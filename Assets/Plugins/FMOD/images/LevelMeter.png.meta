@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21e7a3d41a926364a8b9a6704ebe80d8
+guid: ac482dcc9ed211943a83581fb4ab9b32
 timeCreated: 1433917421
 licenseType: Store
 TextureImporter:
@@ -53,10 +53,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/LevelMeter.png
-  uploadId: 717736

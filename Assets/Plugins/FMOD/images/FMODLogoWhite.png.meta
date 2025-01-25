@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8fd8ccb8d7e81d943b28ea7975c7185d
+guid: 57982ec5724fe0846996d27ef6f1617e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -142,10 +142,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/FMODLogoWhite.png
-  uploadId: 717736

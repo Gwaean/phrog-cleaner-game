@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c74d44e6ba102764fb85c6dc1e6d4168
+guid: da87e014de6f25d46aadba1f8a7097a0
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -30,10 +30,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/html5/lib/3.1.39/libfmodstudio.a
-  uploadId: 717736

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc1f51bc35d549941904cf062bae93a3
+guid: 9c56543d0b2bc0543ace111c406b6f74
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,10 +9,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs
-  uploadId: 717736

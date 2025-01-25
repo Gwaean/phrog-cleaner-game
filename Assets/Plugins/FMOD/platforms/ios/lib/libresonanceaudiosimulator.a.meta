@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ad1791b3b48a4ba39c30a2b4f438486
+guid: ccb3d5c6f80d41a40a0a225d46d12a36
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -111,10 +111,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a
-  uploadId: 717736

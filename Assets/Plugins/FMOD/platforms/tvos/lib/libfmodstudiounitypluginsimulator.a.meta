@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86d28a38815714041bf19dc4cc59ce65
+guid: 7ae62f38d356a404cbc63557ec9fa383
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -111,10 +111,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a
-  uploadId: 717736

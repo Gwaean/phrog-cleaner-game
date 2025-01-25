@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a602f206f9cb31f439c79a2fe23687c5
+guid: b4c14f198861c0748b1341a1929270bb
 timeCreated: 1432616010
 licenseType: Store
 TextureImporter:
@@ -53,10 +53,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/EventIcon.png
-  uploadId: 717736

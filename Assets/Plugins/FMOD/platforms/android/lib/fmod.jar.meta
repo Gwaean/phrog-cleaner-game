@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cba124c31f7e10640bc2ff9464f8ac15
+guid: 8f760f4991f84c04ea142e1627e74594
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -30,10 +30,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/android/lib/fmod.jar
-  uploadId: 717736

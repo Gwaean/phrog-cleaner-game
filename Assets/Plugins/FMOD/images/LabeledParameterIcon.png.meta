@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b4d696e5c0be6f44bb2f02aa41320656
+guid: 9fb8188389e923b47bdda9e414ce4d83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,10 +90,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/LabeledParameterIcon.png
-  uploadId: 717736

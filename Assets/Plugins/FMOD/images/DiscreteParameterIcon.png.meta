@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 509563e7079a6ed4cbf3b3240327e702
+guid: 5b34adda7fdcc634585f0045b8f1e952
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,10 +90,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/DiscreteParameterIcon.png
-  uploadId: 717736

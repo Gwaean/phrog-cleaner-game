@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eab53cb0959d1244aadeacf8b76c755c
+guid: 3928b29ae450fd346abd03743f676dd4
 timeCreated: 1453177025
 licenseType: Store
 TextureImporter:
@@ -55,10 +55,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/TransportStopButtonOn.png
-  uploadId: 717736

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c56aac88d64894d01a74d1cf8f609da6
+guid: acbfe7918060f1746ab273ab5d6990f0
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -71,10 +71,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xros.a
-  uploadId: 717736

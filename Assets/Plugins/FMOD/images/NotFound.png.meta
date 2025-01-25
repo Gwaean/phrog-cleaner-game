@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1138ab068176f29499337d7a73dfecd9
+guid: a0327d9ebe56f814d95f5f6968e380bc
 timeCreated: 1432798099
 licenseType: Store
 TextureImporter:
@@ -53,10 +53,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/NotFound.png
-  uploadId: 717736

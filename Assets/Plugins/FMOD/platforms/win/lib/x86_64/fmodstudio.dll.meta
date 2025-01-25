@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 684d4d47a018ed14080e15f4c99b8e86
+guid: eb8f169dfec70874dbce023cc23d206e
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -76,10 +76,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll
-  uploadId: 717736

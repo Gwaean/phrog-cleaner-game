@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6794e6301575a445d8588930a0752568
+guid: 758bf0492b560ee49a0a0daf12677fb0
 timeCreated: 1511395157
 licenseType: Store
 MonoImporter:
@@ -10,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs
-  uploadId: 717736

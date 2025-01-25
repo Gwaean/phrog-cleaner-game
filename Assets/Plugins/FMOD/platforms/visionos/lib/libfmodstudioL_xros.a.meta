@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 240b87501d4c14726b85b03230183106
+guid: 908013500d28547409897198f3c8ee84
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -71,10 +71,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xros.a
-  uploadId: 717736

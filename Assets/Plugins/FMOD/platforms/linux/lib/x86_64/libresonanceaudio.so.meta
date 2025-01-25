@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bca6f630c310b4945b52486d2ed1da0a
+guid: 21197d48323cddc4dbe9c001adce399f
 timeCreated: 1511469552
 licenseType: Store
 PluginImporter:
@@ -67,10 +67,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so
-  uploadId: 717736

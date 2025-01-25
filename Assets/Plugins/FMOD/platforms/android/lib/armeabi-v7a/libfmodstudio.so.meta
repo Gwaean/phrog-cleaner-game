@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf01ad74bd6e5df46996c61b81ba590c
+guid: 954e162fb0ce0ea40a4aa3b02b14ba2f
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -21,10 +21,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so
-  uploadId: 717736

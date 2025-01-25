@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab84f09ed56d54cd3867c72395f7658c
+guid: 6ac3606ea52bf594e95aebe157a4967a
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -71,10 +71,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/visionos/lib/libresonanceaudio_xrsimulator.a
-  uploadId: 717736

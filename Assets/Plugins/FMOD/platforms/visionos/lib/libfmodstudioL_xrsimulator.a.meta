@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc7984acfd746420c810ab83b89887c4
+guid: cd68a527db4efdc4e8c88ee2367d00a7
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -71,10 +71,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xrsimulator.a
-  uploadId: 717736

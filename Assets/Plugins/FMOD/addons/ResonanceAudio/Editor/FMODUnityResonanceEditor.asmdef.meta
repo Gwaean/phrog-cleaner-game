@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 194213485063a984b98ce9410892267a
+guid: 148ca544980367d48bcad1f6fa1b7be4
 AssemblyDefinitionImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef
-  uploadId: 717736

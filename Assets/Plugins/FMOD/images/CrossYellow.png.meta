@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 348d2265b48c67342a4db2a7062813fa
+guid: 3dbeec6d22562534e999083d0fcc76d3
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -86,10 +86,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 161631
-  packageName: FMOD for Unity
-  packageVersion: 2.02.26
-  assetPath: Assets/Plugins/FMOD/images/CrossYellow.png
-  uploadId: 717736

@@ -2,11 +2,17 @@ using UnityEngine;
 
 public class ShellSpawn : MonoBehaviour
 {
- public GameObject ShellPrefab;
-    // Update is called once per frame
+    public GameObject ShellPrefab;
+    private int sorteador;
+
+    void Start()
+    {
+
+    }
+
     void Update()
     {
-        Vector2 Shellposition = new Vector2(,);
-        Instantiate(ShellPrefab,Shellposition,Quaternion.identity);
+      //Vector2 Shellposition = new Vector2(,);
+        Instantiate(ShellPrefab, Shellposition, Quaternion.identity);
     }
 }

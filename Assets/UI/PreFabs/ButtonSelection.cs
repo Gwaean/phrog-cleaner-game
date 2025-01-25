@@ -1,6 +1,8 @@
+using Unity.VisualScripting;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ButtonSelection : MonoBehaviour
 {
@@ -9,7 +11,6 @@ public class ButtonSelection : MonoBehaviour
     void Awake()
     {
        instance = this;
-       //DontDestroyOnLoad(instance);
     }
     //...
     public EventSystem eventSystem; //drag on Editor
@@ -46,7 +47,7 @@ public class ButtonSelection : MonoBehaviour
         m_changedPanel = value;
     }
 
-    private void SetSelectionToLastSelected ()
+    public void SetSelectionToLastSelected ()
     {
         eventSystem.SetSelectedGameObject(lastPanelSelection);
     }
@@ -55,5 +56,10 @@ public class ButtonSelection : MonoBehaviour
     {
         SetPanelChanged(true);
         SetSelectionToLastSelected();
+    }
+
+    public void SetSelectionToButton(GameObject button)
+    {
+        eventSystem.SetSelectedGameObject(button);
     }
 }

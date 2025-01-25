@@ -1968,6 +1968,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Configuration Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_returnToButton
+      value: 
+      objectReference: {fileID: 907129282}
+    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -5,14 +5,13 @@ public class PlayerMovements: MonoBehaviour
     [SerializeField] private float speed = 5.0f; // Horizontal and vertical movement speed
     [SerializeField] private float upwardSlowFactor = 0.5f; // Factor to slow upward movement
     private Rigidbody2D body;
-    private Vector2 inputMovement; // Stores input values from the new system
-
+    private Vector2 inputMovement;
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
     }
 
-    // Called by the Input System when the "Move" action is performed
+
     public void OnMove(InputAction.CallbackContext context)
     {
         inputMovement = context.ReadValue<Vector2>();
@@ -20,14 +19,13 @@ public class PlayerMovements: MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Apply movement based on input
         float horizontal = inputMovement.x;
         float vertical = inputMovement.y;
 
-        // Horizontal and vertical movement
+     
        body.linearVelocity = new Vector2(horizontal * speed, body.linearVelocity.y);
 
-        // Upward movement
+       
         if (vertical > 0)
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, vertical * speed);

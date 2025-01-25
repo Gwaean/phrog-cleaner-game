@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9fa7c8d1e5c33014c9751748696b94e3
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/03 Animation Serialization/Documentation.URL
+  uploadId: 705334

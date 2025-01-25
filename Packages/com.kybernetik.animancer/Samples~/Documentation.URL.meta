@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ecc9f98517a290c44835f236ac9770ef
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Documentation.URL
+  uploadId: 705334

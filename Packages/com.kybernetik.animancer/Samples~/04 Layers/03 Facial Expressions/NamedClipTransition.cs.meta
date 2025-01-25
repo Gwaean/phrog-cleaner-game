@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aae3b7201e4264949a6eb85e8983eb9b
+labels:
+- Sample
+- Layers
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/NamedClipTransition.cs
+  uploadId: 705334

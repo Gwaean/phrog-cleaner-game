@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7b0ee8fdcea4de44e836fd5544a10307
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/08 Animator Controllers/02
+    3D Game Kit/Documentation.URL
+  uploadId: 705334

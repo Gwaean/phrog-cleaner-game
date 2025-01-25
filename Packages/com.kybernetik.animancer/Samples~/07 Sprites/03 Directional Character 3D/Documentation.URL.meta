@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e5eca011be4e2da49ad313eca4a59205
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/03 Directional
+    Character 3D/Documentation.URL
+  uploadId: 705334

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 04844f5cd23ef21438cd022bb37fa5b5
+labels:
+- Sample
+- IK
+- InverseKinematics
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/09 Inverse Kinematics/02
+    Uneven Ground/Obstacle.mat
+  uploadId: 705334

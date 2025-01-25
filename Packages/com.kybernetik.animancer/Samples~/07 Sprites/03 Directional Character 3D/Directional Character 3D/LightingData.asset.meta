@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3c0888b6ee8a50f41a48414ab9e0d659
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/03 Directional
+    Character 3D/Directional Character 3D/LightingData.asset
+  uploadId: 705334

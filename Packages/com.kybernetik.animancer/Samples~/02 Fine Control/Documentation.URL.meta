@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ff995a1ba2abf384fa42c46b5837d072
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/02 Fine Control/Documentation.URL
+  uploadId: 705334

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e4cc136df8fa2834f99d53e96f38e6d4
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/02 Directional
+    Mixers/FollowMousePosition.cs
+  uploadId: 705334

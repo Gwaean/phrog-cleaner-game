@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aeb756b1d2412da4190e7112fdc69d11
+labels:
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/02 Fine Control/04 Update
+    Rate/Update Rate.unity
+  uploadId: 705334

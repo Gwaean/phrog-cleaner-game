@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2c690442710aaab4ab4be5b00a125b00
+labels:
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/06 Library Character/Library
+    Character.unity
+  uploadId: 705334

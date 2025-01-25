@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1bf5de195b67f547a6158c7aa058a25
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Art/Animancer Sample Lighting.lighting
+  uploadId: 705334

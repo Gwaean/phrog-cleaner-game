@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 57cc1fe84e0500b4186a0102a40e8a14
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/Documentation.URL
+  uploadId: 705334

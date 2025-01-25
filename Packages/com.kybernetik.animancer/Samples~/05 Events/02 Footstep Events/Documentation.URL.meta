@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 79c81f99c20655548bcf91b6c67e2d66
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/05 Events/02 Footstep Events/Documentation.URL
+  uploadId: 705334

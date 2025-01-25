@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a92e140e5fc25614ab9b46ee033b5512
+labels:
+- Sample
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/02 Directional
+    Mixers/Humanoid-DirectionalLocomotion.asset
+  uploadId: 705334

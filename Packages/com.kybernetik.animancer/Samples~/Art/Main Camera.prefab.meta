@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9aa688c12da05294ab008f9441fee36f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Art/Main Camera.prefab
+  uploadId: 705334

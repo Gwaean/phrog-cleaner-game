@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1217afdfd0a9799448077394e807a3ac
+labels:
+- AnimationEvent
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/05 Events/02 Footstep Events/Footstep
+    Events.unity
+  uploadId: 705334

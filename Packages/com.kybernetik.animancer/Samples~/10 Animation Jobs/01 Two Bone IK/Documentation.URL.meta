@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2b32bcb2aa896f7429c0007e5ad5fba0
+labels:
+- Documentation
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/10 Animation Jobs/01 Two
+    Bone IK/Documentation.URL
+  uploadId: 705334

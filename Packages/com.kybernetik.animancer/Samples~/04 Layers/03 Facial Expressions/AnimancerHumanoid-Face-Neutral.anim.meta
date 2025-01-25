@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 62e24dfd9b499174bba82ebbfa9f5105
+labels:
+- Sample
+- Layers
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/AnimancerHumanoid-Face-Neutral.anim
+  uploadId: 705334

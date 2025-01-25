@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2908c8c346ab9dd438eaae0b61e694a7
+labels:
+- Documentation
+- Sample
+- FSM
+- FiniteStateMachine
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/06 State Machines/02 Interruptions/Documentation.URL
+  uploadId: 705334

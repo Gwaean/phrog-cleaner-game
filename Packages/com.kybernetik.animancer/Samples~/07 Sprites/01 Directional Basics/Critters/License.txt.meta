@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 67f77504a2e56794389a22fd4e623c29
+labels:
+- CC0
+- Documentation
+- Sample
+- OpenGameArt
+- Patvanmackelberg
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/01 Directional
+    Basics/Critters/License.txt
+  uploadId: 705334

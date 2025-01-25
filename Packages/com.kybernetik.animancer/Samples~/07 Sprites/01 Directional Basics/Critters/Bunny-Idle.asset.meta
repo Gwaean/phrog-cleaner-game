@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7c9daa995c8082c4a986dc5f6a6ecb48
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/01 Directional
+    Basics/Critters/Bunny-Idle.asset
+  uploadId: 705334

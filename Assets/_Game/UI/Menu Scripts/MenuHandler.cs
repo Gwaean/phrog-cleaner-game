@@ -6,7 +6,6 @@ public class MenuHandler : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
     public void ExitGame()
     {
         Debug.Log("Game Closed");

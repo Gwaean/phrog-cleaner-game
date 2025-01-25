@@ -38,7 +38,7 @@ public class PanelHandler : MonoBehaviour
         ButtonSelection.instance.SetPanelChanged (false);
     }
 
-    public void Close()
+    virtual public void Close()
     {
         m_panel.SetActive (false);
         ButtonSelection.instance.ApplyChanges();

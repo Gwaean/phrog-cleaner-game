@@ -52,5 +52,4 @@ public class ButtonSelection : MonoBehaviour
         SetPanelChanged(true);
         SetSelectionToLastSelected();
     }
-
 }

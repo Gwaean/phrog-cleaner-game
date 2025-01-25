@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &34833058 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 728674451756588337, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-  m_PrefabInstance: {fileID: 2053704312128966428}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132491610
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,17 +911,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696459712}
   m_CullTransparentMesh: 1
---- !u!114 &713454921 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-  m_PrefabInstance: {fileID: 2053704312128966428}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &812887250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,10 +1394,10 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
   m_PrefabInstance: {fileID: 2053704312128966428}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34833058}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dbd8ca273c1b1b409ee67c463711b2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 40263987b9f257c4d9609b9934163bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1322850221
@@ -1529,7 +1513,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1322850221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57f4b11f7dc3044f84845c8bcf8b4dd, type: 3}
+  m_Script: {fileID: 11500000, guid: d664b5e2f88db9c4bb1ede0a7f67a2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1361009077
@@ -2084,7 +2068,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1715142380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea825be016a72543bf6f055d0b59032, type: 3}
+  m_Script: {fileID: 11500000, guid: 94d1459ce126f1242bc9bb4fb64674b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_panel: {fileID: 1715142380}
@@ -2531,50 +2515,6 @@ PrefabInstance:
     - target: {fileID: 728674451756588337, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
       propertyPath: m_Name
       value: Configuration Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 728674451756588337, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_panel
-      value: 
-      objectReference: {fileID: 34833058}
-    - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: PrimaryButton
-      value: 
-      objectReference: {fileID: 713454921}
-    - target: {fileID: 1114831213081241358, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: AcceptAnyCancelKey
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2212764567995578022, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.g
-      value: 0.9504018
-      objectReference: {fileID: 0}
-    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Close
-      objectReference: {fileID: 0}
-    - target: {fileID: 2632527174537095880, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PanelHandler, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3026009084601169584, guid: b5f1d7ffd9c04214abcddc709fef4d15, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

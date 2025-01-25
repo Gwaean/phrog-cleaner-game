@@ -6,5 +6,6 @@ public class ConfigurationHandler : PanelHandler
     void Awake()
     {
         DontDestroyOnLoad(m_panel);
+        DontDestroyOnLoad(this);
     }
 }

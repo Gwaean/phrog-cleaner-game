@@ -16,8 +16,8 @@ public class CleaningMechanic : MonoBehaviour
     //-----------------------
 
     [SerializeField] Image progressBar;
-
-
+    [SerializeField] PlayMusic playMusic;
+ 
     void Start()
     {
         progressBar.fillAmount = progress;
@@ -44,7 +44,8 @@ public class CleaningMechanic : MonoBehaviour
                 other.gameObject.SetActive(false);
 
                 cleaned++;
-                //progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
+                progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
+                playMusic.ChangeParameter("Intensity", progress);
 
                 progressBar.fillAmount = (float)cleaned / dirtList.Length;
             }

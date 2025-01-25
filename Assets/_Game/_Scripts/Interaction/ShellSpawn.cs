@@ -13,6 +13,6 @@ public class ShellSpawn : MonoBehaviour
     void Update()
     {
       //Vector2 Shellposition = new Vector2(,);
-        Instantiate(ShellPrefab, Shellposition, Quaternion.identity);
+       //nstantiate(ShellPrefab, Shellposition, Quaternion.identity);
     }
 }

@@ -9,15 +9,19 @@ public class ButtonSelection : MonoBehaviour
     void Awake()
     {
        instance = this;
-       DontDestroyOnLoad(instance);
+       //DontDestroyOnLoad(instance);
     }
     //...
-
     public EventSystem eventSystem; //drag on Editor
     private GameObject lastSelected;
     private GameObject currentSelected;
     private GameObject lastPanelSelection;
     private bool m_changedPanel = false;
+
+    void Start()
+    {
+        eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
+    }
 
     void Update()
     {
@@ -26,16 +30,14 @@ public class ButtonSelection : MonoBehaviour
     
     private void UpdateSelection() {
 
-        if(currentSelected){
-            if ((eventSystem.currentSelectedGameObject != currentSelected))
-            {
-                lastSelected = currentSelected;
-                currentSelected = eventSystem.currentSelectedGameObject;
-            }
-            else if (m_changedPanel)
-            {
-                lastPanelSelection = lastSelected;
-            }
+        if (eventSystem.currentSelectedGameObject != currentSelected)
+        {
+            lastSelected = currentSelected;
+            currentSelected = eventSystem.currentSelectedGameObject;
+        }
+        else if (m_changedPanel)
+        {
+            lastPanelSelection = lastSelected;
         }
     }
 

@@ -26,14 +26,16 @@ public class ButtonSelection : MonoBehaviour
     
     private void UpdateSelection() {
 
-        if (eventSystem.currentSelectedGameObject != currentSelected)
-        {
-            lastSelected = currentSelected;
-            currentSelected = eventSystem.currentSelectedGameObject;
-        }
-        else if (m_changedPanel)
-        {
-            lastPanelSelection = lastSelected;
+        if(currentSelected){
+            if ((eventSystem.currentSelectedGameObject != currentSelected))
+            {
+                lastSelected = currentSelected;
+                currentSelected = eventSystem.currentSelectedGameObject;
+            }
+            else if (m_changedPanel)
+            {
+                lastPanelSelection = lastSelected;
+            }
         }
     }
 

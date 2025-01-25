@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eef8d824ea7b63742966aaa0e94ac383, type: 3}
+  m_Script: {fileID: 0}
   m_Name: FMODStudioSettings
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: FMODUnity:FMODUnity:Settings
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
@@ -66,4 +66,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  MigratedPlatforms: 0500000000000000060000000a0000000800000009000000120000000c000000150000000b0000000200000001000000
+  MigratedPlatforms: 0500000006000000080000001500000000000000090000000b000000120000000a0000000c0000000200000001000000

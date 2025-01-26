@@ -6,7 +6,7 @@ using TMPro;
 
 public class CleaningMechanic : MonoBehaviour
 {
-    bool cleaning = false;
+    public bool cleaning = false;
     //-----------------------
 
     [SerializeField]
@@ -25,6 +25,13 @@ public class CleaningMechanic : MonoBehaviour
 
     public static UnityEvent victory = new();
 
+    private PlayerMovements playerMovements;
+
+    void Awake()
+    {
+        playerMovements = GetComponent<PlayerMovements>();
+    }
+
     void Start()
     {
         progressBar.fillAmount = progress;
@@ -40,6 +47,8 @@ public class CleaningMechanic : MonoBehaviour
         {
             cleaning = false;
         }
+
+        playerMovements.HandlePlayerAnimations();
     }
 
     private void OnTriggerStay2D(Collider2D other)

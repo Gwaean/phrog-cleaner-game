@@ -7,7 +7,7 @@ public class CrabInteraction : MonoBehaviour, IInteractable
     // Update is called once per frame
     public void Interact()
     {
-        ShellInteraction.DecrementShellCount();
+        GameManager.Instance.DecrementShellCount();
         GetComponent<BoxCollider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
     }

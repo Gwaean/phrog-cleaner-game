@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c90abed22f80de548839f5b52fddfcfc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Art/Props/Pistol/Pistol-Magazine.mat
+  uploadId: 705334

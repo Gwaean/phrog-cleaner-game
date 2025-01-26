@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c38e59d9ed5bf434d85633f5c2d67c40
+labels:
+- Sample
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/02 Fine Control/01 Named
+    Character/Move.asset
+  uploadId: 705334

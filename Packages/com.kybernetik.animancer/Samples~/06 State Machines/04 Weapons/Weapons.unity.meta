@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b08a05257879bff4c838a163490e863c
+labels:
+- Sample
+- FSM
+- FiniteStateMachine
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/06 State Machines/04 Weapons/Weapons.unity
+  uploadId: 705334

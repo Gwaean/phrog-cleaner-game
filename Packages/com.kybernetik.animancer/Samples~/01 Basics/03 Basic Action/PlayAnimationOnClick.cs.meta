@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 0ee05891e0dfea44b9489ef029d84ba5
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/03 Basic Action/PlayAnimationOnClick.cs
+  uploadId: 705334

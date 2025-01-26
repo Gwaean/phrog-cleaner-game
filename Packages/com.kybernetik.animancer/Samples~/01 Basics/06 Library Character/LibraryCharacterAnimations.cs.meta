@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 11415843bfda6b44fa5be881cc7d0355
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/06 Library Character/LibraryCharacterAnimations.cs
+  uploadId: 705334

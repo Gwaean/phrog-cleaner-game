@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8713ae8fdc5c6f8498df051397d837d1
+labels:
+- Sample
+- FSM
+- FiniteStateMachine
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/06 State Machines/04 Weapons/AttackState.cs
+  uploadId: 705334

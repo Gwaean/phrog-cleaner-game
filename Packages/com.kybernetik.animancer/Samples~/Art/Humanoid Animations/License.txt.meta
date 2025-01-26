@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3e34f48df91ef634a9dfaeca840341de
+labels:
+- Documentation
+- Sample
+- HugeFBXMocapLibrary
+- Humanoid
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/Art/Humanoid Animations/License.txt
+  uploadId: 705334

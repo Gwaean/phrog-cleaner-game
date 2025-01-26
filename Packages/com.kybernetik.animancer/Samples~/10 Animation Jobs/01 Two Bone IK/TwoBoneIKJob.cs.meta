@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e8a1c1fdbdcdc90409823900f754291e
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/10 Animation Jobs/01 Two
+    Bone IK/TwoBoneIKJob.cs
+  uploadId: 705334

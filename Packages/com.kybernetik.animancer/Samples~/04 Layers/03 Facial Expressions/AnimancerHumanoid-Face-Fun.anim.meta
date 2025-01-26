@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a406f27db5c045a489ec5c3ecf8860d4
+labels:
+- Sample
+- Layers
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/AnimancerHumanoid-Face-Fun.anim
+  uploadId: 705334

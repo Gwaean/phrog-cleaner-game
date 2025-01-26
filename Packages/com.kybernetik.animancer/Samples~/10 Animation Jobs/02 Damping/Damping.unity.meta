@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 00bb75d9181c4df43973ad0012760867
+labels:
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/10 Animation Jobs/02 Damping/Damping.unity
+  uploadId: 705334

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5d3d89677fe647f4a8ffeefafd5a5382
+labels:
+- Sample
+- FSM
+- FiniteStateMachine
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/06 State Machines/01 Characters/Characters.unity
+  uploadId: 705334

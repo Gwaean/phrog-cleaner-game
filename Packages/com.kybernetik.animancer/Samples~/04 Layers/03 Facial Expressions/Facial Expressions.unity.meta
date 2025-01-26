@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 52c47ed11e6c3ff408de23f0d070b911
+labels:
+- Sample
+- Layers
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/Facial
+    Expressions.unity
+  uploadId: 705334

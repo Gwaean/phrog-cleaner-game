@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d5f854356181ec049b789f29bdeb43cd
+labels:
+- Documentation
+- Sample
+- Layers
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/04 Layers/03 Facial Expressions/Documentation.URL
+  uploadId: 705334

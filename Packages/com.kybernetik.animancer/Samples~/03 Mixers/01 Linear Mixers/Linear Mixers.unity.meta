@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9e115319934f3d74da38fccdc46a78a9
+labels:
+- BlendTree
+- Sample
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/01 Linear Mixers/Linear
+    Mixers.unity
+  uploadId: 705334

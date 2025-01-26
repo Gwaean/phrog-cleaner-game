@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 333c509a4f743f547ac673336c25c8f0
+labels:
+- Sample
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/03 Mixers/03 Animation Serialization/Humanoid-AnimationSerialization.asset
+  uploadId: 705334

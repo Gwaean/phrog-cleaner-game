@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.Events;
+using TMPro;
 
 public class CleaningMechanic : MonoBehaviour
 {
-    bool cleaning = false;
+    public bool cleaning = false;
     //-----------------------
 
     [SerializeField]
@@ -17,7 +19,19 @@ public class CleaningMechanic : MonoBehaviour
 
     [SerializeField] Image progressBar;
     [SerializeField] PlayMusic playMusic;
- 
+    [SerializeField] TextMeshProUGUI text;
+
+    //--------------------------
+
+    public static UnityEvent victory = new();
+
+    private PlayerMovements playerMovements;
+
+    void Awake()
+    {
+        playerMovements = GetComponent<PlayerMovements>();
+    }
+
     void Start()
     {
         progressBar.fillAmount = progress;
@@ -33,6 +47,8 @@ public class CleaningMechanic : MonoBehaviour
         {
             cleaning = false;
         }
+
+        playerMovements.HandlePlayerAnimations();
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -42,13 +58,19 @@ public class CleaningMechanic : MonoBehaviour
             if (cleaning)
             {
                 other.gameObject.SetActive(false);
-
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
                 playMusic.ChangeParameter("Intensity", progress);
+                UpdateHUD();
 
-                progressBar.fillAmount = (float)cleaned / dirtList.Length;
+                if (progress >= 100)
+                    victory.Invoke();
             }
         }
+    }
+    private void UpdateHUD()
+    {
+        progressBar.fillAmount = (float)cleaned / dirtList.Length;
+        text.text = progress + "/100%";
     }
 }

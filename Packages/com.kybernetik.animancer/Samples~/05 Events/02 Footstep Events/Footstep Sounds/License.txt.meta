@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3ffe8623e092810418d762728e8e6fd9
+labels:
+- CC0
+- Cris
+- Documentation
+- Sample
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/05 Events/02 Footstep Events/Footstep
+    Sounds/License.txt
+  uploadId: 705334

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 263bc7fbc5e142b4d8de4a381aebf013
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/07 Sprites/03 Directional
+    Character 3D/Environment/Wall.mat
+  uploadId: 705334

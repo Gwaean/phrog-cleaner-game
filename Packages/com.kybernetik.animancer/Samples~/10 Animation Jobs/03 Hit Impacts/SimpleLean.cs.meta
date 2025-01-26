@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c3b17a80d9a4dd8419d3a49b0087b73b
+labels:
+- Sample
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/10 Animation Jobs/03 Hit
+    Impacts/SimpleLean.cs
+  uploadId: 705334

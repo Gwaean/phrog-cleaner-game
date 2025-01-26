@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aa5cf1ffc9d45614d8a51bbe2c453245
+labels:
+- Sample
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/01 Basics/06 Library Character/Humanoid-LibraryCharacter.asset
+  uploadId: 705334

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 354141a3bd4840d419314138ca533dda
+labels:
+- Sample
+- FSM
+- FiniteStateMachine
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293524
+  packageName: Animancer Lite
+  packageVersion: 8.0.2
+  assetPath: Packages/com.kybernetik.animancer/Samples~/06 State Machines/01 Characters/CharacterStatePriority.cs
+  uploadId: 705334

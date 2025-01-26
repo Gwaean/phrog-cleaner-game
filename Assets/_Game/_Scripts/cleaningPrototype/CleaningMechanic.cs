@@ -21,7 +21,6 @@ public class CleaningMechanic : MonoBehaviour
     public float progress = 0;
     //-----------------------
 
-    [SerializeField] Image progressBar;
     [SerializeField] PlayMusic playMusic;
     [SerializeField] TextMeshProUGUI text;
 
@@ -45,7 +44,6 @@ public class CleaningMechanic : MonoBehaviour
 
     void Start()
     {
-        progressBar.fillAmount = progress;
     }
 
     void Update()
@@ -95,7 +93,6 @@ public class CleaningMechanic : MonoBehaviour
     private void UpdateHUD()
     {
         if (progress > 100) progress = 100;
-        progressBar.fillAmount = (float)cleaned / dirtList.Length;
         text.text = progress + "/100%";
     }
 }

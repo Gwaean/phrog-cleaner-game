@@ -11,6 +11,7 @@ public class Oxygen : MonoBehaviour
     [SerializeField] float interval;
     [SerializeField] Sprite[] states;
     [SerializeField] PlayMusic playMusic;
+    [SerializeField] Image oxygenBar;
 
     public GameObject HUD;
     private Image image;
@@ -22,6 +23,7 @@ public class Oxygen : MonoBehaviour
 
     void Start()
     {
+        oxygenBar.fillAmount = totalOxygen/100;
         InvokeRepeating(nameof(LoseOxygen), interval, interval);
     }
 
@@ -47,6 +49,8 @@ public class Oxygen : MonoBehaviour
 
     public void UpdateOxygenSprite()
     {
+        oxygenBar.fillAmount = totalOxygen/100;
+
         if (totalOxygen >= 75)
             image.sprite = states[0];
         else if (totalOxygen >= 50)

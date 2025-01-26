@@ -76,7 +76,8 @@ public class CleaningMechanic : MonoBehaviour
         {
             if (cleaning)
             {
-                other.gameObject.SetActive(false);
+                other.GetComponent<BoxCollider2D>().enabled = false;
+                other.GetComponent<FadeOut>().FadeOutAnim();
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
                 UpdateHUD();

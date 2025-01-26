@@ -5,6 +5,7 @@ using UnityEngine;
 public class Chest : MonoBehaviour, IInteractable
 {
     public AnimationClip idleAnimation;
+    public AnimationClip openAnimation;
     [SerializeField] float reward;
 
     private AnimancerComponent animancerComponent;
@@ -25,6 +26,6 @@ public class Chest : MonoBehaviour, IInteractable
         GameManager.Instance.AddOxygen(reward);
         RuntimeManager.PlayOneShot(openChest, transform.position);
         GetComponent<BoxCollider2D>().enabled = false;
-        GetComponent<FadeOut>().FadeOutAnim();
+        animancerComponent.Play(openAnimation);
     }
 }

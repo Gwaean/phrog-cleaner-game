@@ -25,7 +25,7 @@ public class TimeCounter : MonoBehaviour
     private void UpdateUI()
     {
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
-        string counterText = "TEMPO:	" + time.ToString(@"m\:ss");
+        string counterText = "<b>TEMPO:	" + time.ToString(@"m\:ss");
         counterUI.text = counterText;
     }
 

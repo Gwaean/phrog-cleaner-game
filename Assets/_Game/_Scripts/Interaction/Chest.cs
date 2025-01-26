@@ -25,6 +25,6 @@ public class Chest : MonoBehaviour, IInteractable
         GameManager.Instance.AddOxygen(reward);
         RuntimeManager.PlayOneShot(openChest, transform.position);
         GetComponent<BoxCollider2D>().enabled = false;
-        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<FadeOut>().FadeOutAnim();
     }
 }

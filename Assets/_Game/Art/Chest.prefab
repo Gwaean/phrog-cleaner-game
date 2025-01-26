@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6434833467841409215}
   - component: {fileID: 8430792121564755821}
   - component: {fileID: 2021068060285608711}
+  - component: {fileID: 8318850876063081726}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -188,3 +189,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idleAnimation: {fileID: 7400000, guid: 62438eaad785bf4498ad0be4c796e024, type: 2}
   reward: 30
+  openChest:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &8318850876063081726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270800135853507406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415ed62d63608ad439847301afeaa113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animDuration: 0.25

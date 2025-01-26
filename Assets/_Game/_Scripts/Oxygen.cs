@@ -17,8 +17,12 @@ public class Oxygen : MonoBehaviour
 
     void LoseOxygen()
     {
-        if (totalOxygen > 0) totalOxygen -= loss;
-        else totalOxygen = 0;
+        totalOxygen -= loss;
+        if (totalOxygen < 0)
+        {
+            totalOxygen = 0;
+            CleaningMechanic.victory.Invoke();
+        }
         if (text != null) text.text = totalOxygen + "%";
     }
 

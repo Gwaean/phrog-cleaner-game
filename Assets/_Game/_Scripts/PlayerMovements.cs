@@ -1,4 +1,5 @@
 using Animancer;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerMovements : MonoBehaviour
@@ -30,6 +31,22 @@ public class PlayerMovements : MonoBehaviour
             }
         }
     }
+
+    private bool _isFlipped;
+    public bool IsFlipped
+    {
+        get { return _isFlipped; }
+        set
+        {
+            if (IsFlipped != value)
+            {
+                _isFlipped = value;
+                RuntimeManager.PlayOneShot(changeDirectionSound, transform.position);
+            }
+        }
+    }
+
+    public EventReference changeDirectionSound;
 
     private void Awake()
     {
@@ -66,9 +83,15 @@ public class PlayerMovements : MonoBehaviour
 
         // Flipping player horizontally
         if (horizontal > 0.01f)
+        {
             transform.localScale = Vector3.one;
+            IsFlipped = false;
+        }
         else if (horizontal < -0.01f)
+        {
             transform.localScale = new Vector3(-1, 1, 1);
+            IsFlipped = true;
+        }
     }
 
     public void HandlePlayerAnimations()

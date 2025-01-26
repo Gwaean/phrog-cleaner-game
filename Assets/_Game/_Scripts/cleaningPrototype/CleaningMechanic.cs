@@ -6,6 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using FMODUnity;
 
 public class CleaningMechanic : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class CleaningMechanic : MonoBehaviour
     private PlayerMovements playerMovements;
     public Volume postProcessing;
     [SerializeField] private ScreenSpaceLensFlare screenSpaceLensFlare;
+    public EventReference cleanSound;
 
     void Awake()
     {
@@ -80,6 +82,8 @@ public class CleaningMechanic : MonoBehaviour
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
                 UpdateHUD();
+
+                RuntimeManager.PlayOneShot(cleanSound, transform.position);
 
                 if (progress >= 100)
                 {

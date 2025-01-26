@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{01689bba-5879-417e-932a-6e67bb0f66ac}">
+		<property name="assetPath">
+			<value>SFX/waterChangeDirection.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.7187528344671201</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ad5cfd9-1922-4ef8-a942-8491c4a4ab8e}</destination>
+		</relationship>
+	</object>
+</objects>

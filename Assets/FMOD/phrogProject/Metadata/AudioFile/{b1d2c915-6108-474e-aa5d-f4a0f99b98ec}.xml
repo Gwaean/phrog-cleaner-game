@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b1d2c915-6108-474e-aa5d-f4a0f99b98ec}">
+		<property name="assetPath">
+			<value>SFX/giveItem.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.62693877551020405</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ad5cfd9-1922-4ef8-a942-8491c4a4ab8e}</destination>
+		</relationship>
+	</object>
+</objects>

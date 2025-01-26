@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
+using Unity.VisualScripting;
 
 public class CleaningMechanic : MonoBehaviour
 {
@@ -64,12 +65,15 @@ public class CleaningMechanic : MonoBehaviour
                 UpdateHUD();
 
                 if (progress >= 100)
+                {
                     victory.Invoke();
+                }            
             }
         }
     }
     private void UpdateHUD()
     {
+        if (progress > 100) progress = 100;
         progressBar.fillAmount = (float)cleaned / dirtList.Length;
         text.text = progress + "/100%";
     }

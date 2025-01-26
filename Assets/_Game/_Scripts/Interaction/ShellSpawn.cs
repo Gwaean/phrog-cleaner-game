@@ -38,7 +38,6 @@ public class ShellSpawn : MonoBehaviour
         
             Transform selectedSpawner = availableSpawners[Random.Range(0, availableSpawners.Length)];
 
-           
             GameObject newShell = Instantiate(ShellPrefab, selectedSpawner.position, Quaternion.identity);
 
             activeShells.Add(newShell);

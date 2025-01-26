@@ -338,11 +338,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1594330494}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &171059266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1270800135853507406, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-  m_PrefabInstance: {fileID: 294648721}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &195058696
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,30 +547,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest
       objectReference: {fileID: 0}
-    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: openChest.Path
-      value: event:/SFX/CollectItem
-      objectReference: {fileID: 0}
-    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: openChest.Guid.Data1
-      value: 2033558717
-      objectReference: {fileID: 0}
-    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: openChest.Guid.Data2
-      value: 1233566402
-      objectReference: {fileID: 0}
-    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: openChest.Guid.Data3
-      value: 1164766655
-      objectReference: {fileID: 0}
-    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: openChest.Guid.Data4
-      value: -2079034574
-      objectReference: {fileID: 0}
-    - target: {fileID: 4160027069267189150, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 5689795423641909650, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.17
@@ -616,64 +587,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -22.2
       objectReference: {fileID: 0}
-    - target: {fileID: 6381952272699424878, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: m_Size.x
-      value: 4.3125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6381952272699424878, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: m_Size.y
-      value: 2.90625
-      objectReference: {fileID: 0}
-    - target: {fileID: 6381952272699424878, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6381952272699424878, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6434833467841409215, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: _Animator
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8430792121564755821, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1270800135853507406, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 294648725}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
 --- !u!4 &294648722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5689795423641909650, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
   m_PrefabInstance: {fileID: 294648721}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &294648725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171059266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e9c4e5af4e99d479fda8aeee530c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idleAnimation: {fileID: 7400000, guid: 62438eaad785bf4498ad0be4c796e024, type: 2}
-  reward: 30
-  openChest:
-    Guid:
-      Data1: 2033558717
-      Data2: 1233566402
-      Data3: 1164766655
-      Data4: -2079034574
-    Path: event:/SFX/CollectItem
 --- !u!1 &309584200
 GameObject:
   m_ObjectHideFlags: 0
@@ -21075,6 +20998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shell Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1616080563916482486, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: idleAnimation
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4160027069267189150, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21160,10 +21087,10 @@ PrefabInstance:
       addedObject: {fileID: 869214925}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1270800135853507406, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      insertIndex: -1
+      insertIndex: 7
       addedObject: {fileID: 1594330497}
     - targetCorrespondingSourceObject: {fileID: 1270800135853507406, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
-      insertIndex: -1
+      insertIndex: 8
       addedObject: {fileID: 1594330496}
   m_SourcePrefab: {fileID: 100100000, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
 --- !u!4 &1594330494 stripped

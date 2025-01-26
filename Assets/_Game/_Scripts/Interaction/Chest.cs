@@ -17,7 +17,7 @@ public class Chest : MonoBehaviour, IInteractable
 
     void Start()
     {
-        animancerComponent.Play(idleAnimation);
+        if (idleAnimation != null) animancerComponent.Play(idleAnimation);
     }
 
     public void Interact()

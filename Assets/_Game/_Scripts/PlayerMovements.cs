@@ -16,7 +16,9 @@ public class PlayerMovements : MonoBehaviour
     public AnimationClip cleaningIdle;
     public AnimationClip cleaningSwimming;
     public AnimationClip cleaningSwimmingUp;
+    
     private CleaningMechanic cleaningMechanic;
+    private PlayerInteractions playerInteractions;
 
     private bool _isSwimming;
     public bool IsSwimming
@@ -54,6 +56,8 @@ public class PlayerMovements : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         animancer = GetComponent<AnimancerComponent>();
         cleaningMechanic = GetComponent<CleaningMechanic>();
+        playerInteractions = GetComponent<PlayerInteractions>();
+
         inputActions = new();
         inputActions.Enable();
     }
@@ -67,6 +71,10 @@ public class PlayerMovements : MonoBehaviour
         inputActions.Player.Clean.started += cleaningMechanic.OnClean;
         inputActions.Player.Clean.canceled += cleaningMechanic.OnClean;
         inputActions.Player.Clean.performed += cleaningMechanic.OnClean;
+
+        inputActions.Player.Interact.started += playerInteractions.OnInteract;
+        inputActions.Player.Interact.canceled += playerInteractions.OnInteract;
+        inputActions.Player.Interact.performed += playerInteractions.OnInteract;
     }
 
     void OnDisable()
@@ -78,6 +86,12 @@ public class PlayerMovements : MonoBehaviour
         inputActions.Player.Clean.started -= cleaningMechanic.OnClean;
         inputActions.Player.Clean.canceled -= cleaningMechanic.OnClean;
         inputActions.Player.Clean.performed -= cleaningMechanic.OnClean;
+
+        inputActions.Player.Interact.started -= playerInteractions.OnInteract;
+        inputActions.Player.Interact.canceled -= playerInteractions.OnInteract;
+        inputActions.Player.Interact.performed -= playerInteractions.OnInteract;
+
+        inputActions.Disable();
     }
 
     public void OnMove(InputAction.CallbackContext context)

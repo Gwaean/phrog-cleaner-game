@@ -9,6 +9,7 @@ public class PlayerMovements : MonoBehaviour
     private Rigidbody2D body;
     private Vector2 inputMovement;
     public AnimancerComponent animancer;
+    public InputSystem_Actions inputActions;
     public AnimationClip idle;
     public AnimationClip swimming;
     public AnimationClip swimmingUp;
@@ -53,8 +54,31 @@ public class PlayerMovements : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         animancer = GetComponent<AnimancerComponent>();
         cleaningMechanic = GetComponent<CleaningMechanic>();
+        inputActions = new();
+        inputActions.Enable();
     }
 
+    void OnEnable()
+    {
+        inputActions.Player.Move.started += OnMove;
+        inputActions.Player.Move.performed += OnMove;
+        inputActions.Player.Move.canceled += OnMove;
+
+        inputActions.Player.Clean.started += cleaningMechanic.OnClean;
+        inputActions.Player.Clean.canceled += cleaningMechanic.OnClean;
+        inputActions.Player.Clean.performed += cleaningMechanic.OnClean;
+    }
+
+    void OnDisable()
+    {
+        inputActions.Player.Move.started -= OnMove;
+        inputActions.Player.Move.performed -= OnMove;
+        inputActions.Player.Move.canceled -= OnMove;
+
+        inputActions.Player.Clean.started -= cleaningMechanic.OnClean;
+        inputActions.Player.Clean.canceled -= cleaningMechanic.OnClean;
+        inputActions.Player.Clean.performed -= cleaningMechanic.OnClean;
+    }
 
     public void OnMove(InputAction.CallbackContext context)
     {

@@ -516,6 +516,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: openChest.Path
+      value: event:/SFX/CollectItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: openChest.Guid.Data1
+      value: 2033558717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: openChest.Guid.Data2
+      value: 1233566402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: openChest.Guid.Data3
+      value: 1164766655
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021068060285608711, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: openChest.Guid.Data4
+      value: -2079034574
+      objectReference: {fileID: 0}
     - target: {fileID: 4160027069267189150, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 

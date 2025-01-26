@@ -1,4 +1,5 @@
 using Animancer;
+using FMODUnity;
 using UnityEngine;
 
 public class Chest : MonoBehaviour, IInteractable
@@ -7,6 +8,7 @@ public class Chest : MonoBehaviour, IInteractable
     [SerializeField] float reward;
 
     private AnimancerComponent animancerComponent;
+    public EventReference openChest;
 
     void Awake()
     {
@@ -21,6 +23,7 @@ public class Chest : MonoBehaviour, IInteractable
     public void Interact()
     {
         GameManager.Instance.AddOxygen(reward);
+        RuntimeManager.PlayOneShot(openChest, transform.position);
         GetComponent<BoxCollider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
     }

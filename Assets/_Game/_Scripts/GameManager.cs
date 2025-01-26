@@ -5,8 +5,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
     private Oxygen oxygenLogic;
+
      public int CollectedShell { get; private set; } = 0; 
     public TextMeshProUGUI shellCountText;
+
+    public GameObject VictoryPanel;
+
 
     void Awake()
     {
@@ -21,6 +25,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        CleaningMechanic.victory.AddListener(WinScreen);
+    }
+
+    void OnDisable()
+    {
+        CleaningMechanic.victory.RemoveListener(WinScreen);
+    }
+
     public void AddOxygen(float amount)
     {
         oxygenLogic.AddOxygen(amount);
@@ -30,6 +44,7 @@ public class GameManager : MonoBehaviour
     {
         oxygenLogic.ReturnAmount();
     }
+
     public void IncrementShellCount()
     {
         CollectedShell++;
@@ -61,5 +76,11 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("Shell count UI text is not assigned in the GameManager.");
         }
+
+    }
+    public void WinScreen()
+    {
+        VictoryPanel.SetActive(true);
+
     }
 }

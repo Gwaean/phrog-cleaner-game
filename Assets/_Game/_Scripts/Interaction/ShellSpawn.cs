@@ -1,52 +1,51 @@
 using UnityEngine;
 using System.Collections.Generic;
+
+
 public class ShellSpawn : MonoBehaviour
 {
-    public GameObject ShellPrefab;
-    public Transform[] groundSpawners; 
-    public Transform[] platformSpawners; 
+    public GameObject ShellPrefab; 
+    private int sorteador;
+    public Transform[] spawners; 
     private HashSet<Transform> occupiedSpawners = new HashSet<Transform>(); 
-    public float spawnInterval = 2f; 
-    private float nextSpawnTime;
-    private int sorteador; 
-
+    private List<GameObject> activeShells = new List<GameObject>(); 
+    private float nextSpawnTime; 
+    public int maxShells = 5; 
+    public float spawnInterval = 2f;
     void Start()
     {
-        nextSpawnTime = Time.time + spawnInterval;
-        sorteador = Random.Range(0, 10);
+        sorteador = Random.Range(0, 10); 
+        nextSpawnTime = Time.time + spawnInterval; 
     }
 
     void Update()
     {
-        if (Time.time >= nextSpawnTime)
+        // Verifica se está na hora de spawnar uma nova concha e se não excede o limite de conchas
+        if (Time.time >= nextSpawnTime && activeShells.Count < maxShells)
         {
             SpawnShell();
-            nextSpawnTime = Time.time + spawnInterval;
-
-  
-            sorteador = Random.Range(0, 10);
+            nextSpawnTime = Time.time + spawnInterval; // Atualiza o tempo 
         }
     }
 
     void SpawnShell()
     {
-        // Decide se vai spawnar no chão ou na plataforma usando o sorteador
-        Transform[] spawners = (sorteador % 2 == 0) ? groundSpawners : platformSpawners;
-
-        // Filtra os spawners disponíveis (não ocupados)
+        // Filtra os spawners disponiveis (nao ocupados)
         Transform[] availableSpawners = System.Array.FindAll(spawners, spawner => !occupiedSpawners.Contains(spawner));
 
         if (availableSpawners.Length > 0)
         {
-            // Sorteia um spawner disponível
+        
             Transform selectedSpawner = availableSpawners[Random.Range(0, availableSpawners.Length)];
 
-            // Instancia a concha e marca o spawner como ocupado
-            Instantiate(ShellPrefab, selectedSpawner.position, Quaternion.identity);
+           
+            GameObject newShell = Instantiate(ShellPrefab, selectedSpawner.position, Quaternion.identity);
+
+            activeShells.Add(newShell);
+
             occupiedSpawners.Add(selectedSpawner);
 
-            // Libera o spawner após um tempo
-            StartCoroutine(ClearOccupiedSpawner(selectedSpawner, 5f)); // Libera após 5 segundos
+            StartCoroutine(ClearOccupiedSpawner(selectedSpawner, 5f)); 
         }
     }
 
@@ -54,5 +53,15 @@ public class ShellSpawn : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         occupiedSpawners.Remove(spawner);
+    }
+
+    public void OnShellInteracted(GameObject shell)
+    {
+
+        if (activeShells.Contains(shell))
+        {
+            activeShells.Remove(shell);
+            Destroy(shell); 
+        }
     }
 }

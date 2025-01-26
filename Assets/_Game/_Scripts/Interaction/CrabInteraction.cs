@@ -4,7 +4,7 @@ public class CrabInteraction : MonoBehaviour, IInteractable
 {
   
 
-    // Update is called once per frame
+
     public void Interact()
     {
         GameManager.Instance.DecrementShellCount();

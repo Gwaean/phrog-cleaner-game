@@ -7,6 +7,10 @@ public class PanelHandler : MonoBehaviour
     [SerializeField] protected Button PrimaryButton;
     [SerializeField] public bool AcceptAnyCancelKey = false;
 
+    public void Start(){
+        Time.timeScale = 0f;
+    }
+
     public void Open()
     {
         m_panel.SetActive (true);
@@ -40,6 +44,7 @@ public class PanelHandler : MonoBehaviour
 
     virtual public void Close()
     {
+        Time.timeScale = 1f;
         m_panel.SetActive (false);
         ButtonSelection.instance.ApplyChanges();
     }

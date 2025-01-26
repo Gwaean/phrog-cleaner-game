@@ -560,6 +560,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -22.2
       objectReference: {fileID: 0}
+    - target: {fileID: 6434833467841409215, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: _Animator
+      value: 
+      objectReference: {fileID: 294648724}
+    - target: {fileID: 8430792121564755821, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -568,6 +576,11 @@ PrefabInstance:
 --- !u!4 &294648722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5689795423641909650, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
+  m_PrefabInstance: {fileID: 294648721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &294648724 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8430792121564755821, guid: 8b49e5d2efcd23744b7230fbea551c79, type: 3}
   m_PrefabInstance: {fileID: 294648721}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &309584200
@@ -829,8 +842,8 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
+    m_Bits: 4294967295
+  m_VolumeTrigger: {fileID: 832575519}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
   m_Antialiasing: 0
@@ -6796,6 +6809,10 @@ PrefabInstance:
       propertyPath: progressBar
       value: 
       objectReference: {fileID: 127465315}
+    - target: {fileID: 2838763511368155917, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
+      propertyPath: postProcessing
+      value: 
+      objectReference: {fileID: 832575518}
     - target: {fileID: 2838763511368155917, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
       propertyPath: dirtList.Array.size
       value: 20

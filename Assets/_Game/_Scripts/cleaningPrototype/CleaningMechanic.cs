@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class CleaningMechanic : MonoBehaviour
 {
@@ -27,15 +29,31 @@ public class CleaningMechanic : MonoBehaviour
     public static UnityEvent victory = new();
 
     private PlayerMovements playerMovements;
+    public Volume postProcessing;
+    [SerializeField] private ScreenSpaceLensFlare screenSpaceLensFlare;
 
     void Awake()
     {
         playerMovements = GetComponent<PlayerMovements>();
+
+        postProcessing.profile.TryGet(out ScreenSpaceLensFlare component);
+        screenSpaceLensFlare = component;
+        screenSpaceLensFlare.intensity.value = 30f;
     }
 
     void Start()
     {
         progressBar.fillAmount = progress;
+    }
+
+    void Update()
+    {
+        if (screenSpaceLensFlare != null)
+        {
+            screenSpaceLensFlare.intensity.value = Mathf.Lerp(30, 0, progress / 100);
+
+            playMusic.ChangeParameter("Intensity", progress, true);
+        }
     }
 
     public void OnClean(InputAction.CallbackContext context)
@@ -61,13 +79,12 @@ public class CleaningMechanic : MonoBehaviour
                 other.gameObject.SetActive(false);
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
-                playMusic.ChangeParameter("Intensity", progress, true);
                 UpdateHUD();
 
                 if (progress >= 100)
                 {
                     victory.Invoke();
-                }            
+                }
             }
         }
     }

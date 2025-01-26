@@ -9,14 +9,13 @@ public class ChangeVolumeSlider : MonoBehaviour
     public Slider slider;
     private Bus bus;
 
-    void Start()
+    void Awake()
     {
         bus = RuntimeManager.GetBus(bank);
     }
 
     void OnEnable()
     {
-        ChangeVolume(PlayerPrefs.GetFloat(bank, 1f));
         UpdateSlider();
     }
 
@@ -25,9 +24,13 @@ public class ChangeVolumeSlider : MonoBehaviour
         bus.setVolume(volume);
         PlayerPrefs.SetFloat(bank, volume);
     }
-    
-    void UpdateSlider()
+
+    public void UpdateSlider()
     {
+        if (!bus.isValid())
+            bus = RuntimeManager.GetBus(bank);
+
         slider.value = PlayerPrefs.GetFloat(bank, 1f);
+        ChangeVolume(PlayerPrefs.GetFloat(bank, 1f));
     }
 }

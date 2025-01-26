@@ -47,14 +47,13 @@ public class Oxygen : MonoBehaviour
 
     public void UpdateOxygenSprite()
     {
-        if (totalOxygen >= 100)
+        if (totalOxygen >= 75)
             image.sprite = states[0];
-        else if (totalOxygen >= 75)
-            image.sprite = states[1];
         else if (totalOxygen >= 50)
-            image.sprite = states[2];
-
+            image.sprite = states[1];
         else if (totalOxygen >= 25)
+            image.sprite = states[2];
+        else
             image.sprite = states[3];
 
         if (totalOxygen <= 0)

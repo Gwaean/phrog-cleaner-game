@@ -1593,6 +1593,10 @@ PrefabInstance:
       propertyPath: progressBar
       value: 
       objectReference: {fileID: 127465315}
+    - target: {fileID: 6304136768147317608, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7886933938424319206, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
       propertyPath: m_Name
       value: Player

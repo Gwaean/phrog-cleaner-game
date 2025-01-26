@@ -40,11 +40,6 @@ public class GameManager : MonoBehaviour
         oxygenLogic.AddOxygen(amount);
     }
 
-    public void GetOxygenAmount()
-    {
-        oxygenLogic.ReturnAmount();
-    }
-
     public void IncrementShellCount()
     {
         CollectedShell++;
@@ -80,7 +75,7 @@ public class GameManager : MonoBehaviour
     }
     public void WinScreen()
     {
+        Time.timeScale = 0;
         VictoryPanel.SetActive(true);
-
     }
 }

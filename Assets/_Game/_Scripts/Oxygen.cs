@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Runtime.InteropServices.WindowsRuntime;
+using UnityEngine.SceneManagement;
 
 public class Oxygen : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class Oxygen : MonoBehaviour
     [SerializeField] Sprite[] states;
 
     public GameObject HUD;
+    private Image image;
+
+    void Awake()
+    {
+        image = HUD.GetComponent<Image>();
+    }
 
     void Start()
     {
@@ -20,25 +27,8 @@ public class Oxygen : MonoBehaviour
     void LoseOxygen()
     {
         totalOxygen -= loss;
-        //change sprite
-        switch(totalOxygen)
-        {
-            case 75:
-            HUD.GetComponent<Image>().sprite = states[1];
-            break;
-            case 50:
-            HUD.GetComponent<Image>().sprite = states[2];
-            break;
-            case 25:
-            HUD.GetComponent<Image>().sprite = states[3];
-            break;
-        }
-        //verify end of the game
-        if (totalOxygen < 0)
-        {
-            totalOxygen = 0;
-            CleaningMechanic.victory.Invoke();
-        }
+
+        UpdateOxygenSprite();
     }
 
     public void AddOxygen(float amount)
@@ -46,19 +36,28 @@ public class Oxygen : MonoBehaviour
         totalOxygen += amount;
         if (totalOxygen > 100) totalOxygen = 100;
 
-        switch(totalOxygen)
+        UpdateOxygenSprite();
+    }
+
+    public void UpdateOxygenSprite()
+    {
+        if (totalOxygen >= 100)
+            image.sprite = states[0];
+        else if (totalOxygen >= 75)
+            image.sprite = states[1];
+        else if (totalOxygen >= 50)
+            image.sprite = states[2];
+        else if (totalOxygen >= 25)
+            image.sprite = states[3];
+
+        if (totalOxygen <= 0)
         {
-            case 50:
-            HUD.GetComponent<Image>().sprite = states[2];
-            break;
-            case 75:
-            HUD.GetComponent<Image>().sprite = states[1];
-            break;
-            case 100:
-            HUD.GetComponent<Image>().sprite = states[0];
-            break;
+            totalOxygen = 0;
+            CancelInvoke(nameof(LoseOxygen));
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+
     public float ReturnAmount()
     {
         return totalOxygen;

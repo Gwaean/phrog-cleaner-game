@@ -10,7 +10,7 @@ public class ShellSpawn : MonoBehaviour
     private HashSet<Transform> occupiedSpawners = new HashSet<Transform>(); 
     private List<GameObject> activeShells = new List<GameObject>(); 
     private float nextSpawnTime; 
-    public int maxShells = 5; 
+    public int maxShells; 
     public float spawnInterval = 2f;
     void Start()
     {

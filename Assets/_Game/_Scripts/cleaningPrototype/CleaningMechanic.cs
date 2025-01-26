@@ -3,10 +3,10 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using FMODUnity;
+using System.Collections;
 
 public class CleaningMechanic : MonoBehaviour
 {
@@ -22,6 +22,7 @@ public class CleaningMechanic : MonoBehaviour
     //-----------------------
 
     [SerializeField] Image progressBar;
+    private Coroutine fillAnim;
     [SerializeField] PlayMusic playMusic;
     [SerializeField] TextMeshProUGUI text;
 
@@ -78,24 +79,40 @@ public class CleaningMechanic : MonoBehaviour
         {
             if (cleaning)
             {
-                other.gameObject.SetActive(false);
+                other.GetComponent<BoxCollider2D>().enabled = false;
+                other.GetComponent<FadeOut>().FadeOutAnim();
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
-                UpdateHUD();
+
+                if (fillAnim != null) StopCoroutine(fillAnim);
+                fillAnim = StartCoroutine(UpdateHUD());
+
+                text.text = progress + "/100%";
 
                 RuntimeManager.PlayOneShot(cleanSound, transform.position);
 
                 if (progress >= 100)
                 {
+                    progress = 100;
                     victory.Invoke();
                 }
             }
         }
     }
-    private void UpdateHUD()
+
+    IEnumerator UpdateHUD()
     {
-        if (progress > 100) progress = 100;
-        progressBar.fillAmount = (float)cleaned / dirtList.Length;
-        text.text = progress + "/100%";
+        float elapsedTime = 0f;
+        float startValue = progressBar.fillAmount;
+        float targetFillAmount = progress / 100;
+
+        while (elapsedTime < 0.5f /*duration*/)
+        {
+            progressBar.fillAmount = Mathf.Lerp(startValue, targetFillAmount, elapsedTime / 0.5f/*duration*/);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        progressBar.fillAmount = targetFillAmount;
     }
 }

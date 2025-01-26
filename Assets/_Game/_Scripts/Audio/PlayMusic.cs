@@ -19,9 +19,13 @@ public class PlayMusic : MonoBehaviour
         eventInstance.release();
     }
 
-    public void ChangeParameter(string parameter, float progress)
+    public void ChangeParameter(string parameter, float progress, bool isProgress)
     {
-        float adjustedProgress = progress / 10;
+        float adjustedProgress = progress;
+        if (isProgress)
+        {
+            adjustedProgress = progress / 10;
+        }
 
         eventInstance.setParameterByName(parameter, adjustedProgress);
     }

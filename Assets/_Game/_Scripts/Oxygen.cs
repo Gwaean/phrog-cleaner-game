@@ -10,6 +10,7 @@ public class Oxygen : MonoBehaviour
     [SerializeField] float loss;
     [SerializeField] float interval;
     [SerializeField] Sprite[] states;
+    [SerializeField] PlayMusic playMusic;
 
     public GameObject HUD;
     private Image image;
@@ -22,6 +23,11 @@ public class Oxygen : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(LoseOxygen), interval, interval);
+    }
+
+    void Update()
+    {
+        playMusic.ChangeParameter("Oxygen", totalOxygen, false);
     }
 
     void LoseOxygen()
@@ -47,6 +53,7 @@ public class Oxygen : MonoBehaviour
             image.sprite = states[1];
         else if (totalOxygen >= 50)
             image.sprite = states[2];
+
         else if (totalOxygen >= 25)
             image.sprite = states[3];
 

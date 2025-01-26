@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9999fe2f-7e1b-4568-90ec-0f9df114627c}">
+		<property name="name">
+			<value>Oxygen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ba3a3c0-4e85-4acb-9af3-271637f404d8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e5991a80-1ddb-4910-8bf9-254cf162ec54}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e5991a80-1ddb-4910-8bf9-254cf162ec54}">
+		<property name="maximum">
+			<value>150</value>
+		</property>
+		<property name="initialValue">
+			<value>150</value>
+		</property>
+	</object>
+</objects>

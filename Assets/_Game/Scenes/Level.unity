@@ -1599,6 +1599,10 @@ PrefabInstance:
       value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 2654743937988424382, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
+      propertyPath: playMusic
+      value: 
+      objectReference: {fileID: 1361948757}
+    - target: {fileID: 2654743937988424382, guid: 5a2316b2e5d5c43498fbf1a2ae2d58eb, type: 3}
       propertyPath: states.Array.size
       value: 4
       objectReference: {fileID: 0}

@@ -61,7 +61,7 @@ public class CleaningMechanic : MonoBehaviour
                 other.gameObject.SetActive(false);
                 cleaned++;
                 progress = Mathf.RoundToInt((float)cleaned / dirtList.Length * 100);
-                playMusic.ChangeParameter("Intensity", progress);
+                playMusic.ChangeParameter("Intensity", progress, true);
                 UpdateHUD();
 
                 if (progress >= 100)

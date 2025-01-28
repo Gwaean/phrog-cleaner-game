@@ -1,4 +1,4 @@
-#Soap Toad 🐸✨
+#Soap-Toad 🐸✨
 
 Game in development
 

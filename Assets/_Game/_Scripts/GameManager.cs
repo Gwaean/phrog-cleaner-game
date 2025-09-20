@@ -67,10 +67,7 @@ public class GameManager : MonoBehaviour
         {
             shellCountText.text = CollectedShell.ToString();
         }
-        else
-        {
-            Debug.LogWarning("Shell count UI text is not assigned in the GameManager.");
-        }
+      
 
     }
     public void WinScreen()

@@ -4,10 +4,12 @@ using TMPro;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine.SceneManagement;
 
+//TODO: reajustar e testar o consumo de oxigenio 
+//DOING: mudar valor  de consumo, falta testar e ver como se sai
 public class Oxygen : MonoBehaviour
 {
     public float totalOxygen = 100;
-    [SerializeField] float loss;
+    [SerializeField] float ConsumptionRate = 1.5f;
     [SerializeField] float interval;
     [SerializeField] Sprite[] states;
     [SerializeField] PlayMusic playMusic;
@@ -21,10 +23,10 @@ public class Oxygen : MonoBehaviour
         image = HUD.GetComponent<Image>();
     }
 
-    void Start()
+    void Start() // ao iniciar, ele  seta a barra e comeca a perder oxigenio
     {
-        oxygenBar.fillAmount = totalOxygen/100;
-        InvokeRepeating(nameof(LoseOxygen), interval, interval);
+        oxygenBar.fillAmount = totalOxygen / 100;
+        InvokeRepeating(nameof(LoseOxygen), interval, interval); // usa a funcao loseoxygen a cada intervalo
     }
 
     void Update()
@@ -34,7 +36,7 @@ public class Oxygen : MonoBehaviour
 
     void LoseOxygen()
     {
-        totalOxygen -= loss;
+        totalOxygen -= ConsumptionRate; // nao sei quanto ele perde, imagino que de 1 em 1? nao ta setado o loss em lugar algum, ele so é chamado no comeco ??
 
         UpdateOxygenSprite();
     }
@@ -49,7 +51,7 @@ public class Oxygen : MonoBehaviour
 
     public void UpdateOxygenSprite()
     {
-        oxygenBar.fillAmount = totalOxygen/100;
+        oxygenBar.fillAmount = totalOxygen / 100;
 
         if (totalOxygen >= 75)
             image.sprite = states[0];
